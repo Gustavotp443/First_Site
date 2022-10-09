@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/form.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <title>FORM</title>
+</head>
+
+<body>
+    <aside class="menu" id="menu-form">
+        <section class="main-content menu-content">
+            <h1>LOGO</h1>
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href="conversor.html">CONVERSOR</a></li>
+                        <li><a href="index.html">IMC</a></li>
+                        <li><a href="#">FORM</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </aside>
+    <section class="section">
+        <div class="espaço-do-menu">
+        </div>
+        <div class="all-form">
+            <div id="aviso">
+                <p>Para proteger sua privacidade e segurança, não coloque seus dados reais</p>
+            </div>
+            <div class="form-main">
+                <fieldset class="form-grid">
+                    <legend><b>Preencha o Formulário</b></legend>
+                    <div class="form-group">
+                        <label for="first-name">Nome: </label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </div>
+                    <div class="form-group last-name">
+                        <label for="last-name">Sobrenome: </label>
+                        <input type="text" name="last-name" id="last-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="idade">Idade: </label>
+                        <input type="text" name="idade" id="idade" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="nome@email.com" required>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="base-form">
+                <div class="form-group grau">
+                    <label for="escolaridade">Grau de escolaridade:</label>
+                    <select name="escolaridade" id="escolaridade" required>
+                        <option value="Médio Incompleto">Médio Incompleto</option>
+                        <option value="Médio Completo">Médio Completo</option>
+                        <option value="Superior Incompleto">Superior Incompleto</option>
+                        <option value="Superior Completo">Superior Completo</option>
+                        <option value="Pós-graduação Incompleto">Pós-graduação Incompleto</option>
+                        <option value="Pós-graduação Completo">Pós-graduação Completo</option>
+                    </select>
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <form>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script url="assets/js/form.js"></script>
+</body>
+
+</html>

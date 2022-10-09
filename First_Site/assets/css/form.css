@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-form {
+    color: white;
+    background-color: rgb(16, 5, 117);
+
+}
+
+#menu-form a {
+    color: white;
+}
+
+.section {
+    background-color: rgb(56, 199, 224);
+}
+
+.form-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    gap: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-main legend {
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+    gap: 30px;
+    border: none;
+}
+
+.form-grid input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.form-main legend {
+    font-size: 30px;
+}
+
+.form-main label {
+    display: block;
+    font-size: 20px;
+}
+
+.form-main last-name {
+    position: relative;
+}
+
+.form-main textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.base-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+
+.base-form label {
+    display: block;
+    font-size: 20px;
+}
+
+.base-form select {
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.base-form textarea {
+    width: 400px;
+    height: 100px;
+}
+
+.base-form button {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(16, 5, 117);
+    margin-top: 40px;
+}
+
+#aviso {
+    position: relative;
+    left: 700px;
+    top: 40px;
+}

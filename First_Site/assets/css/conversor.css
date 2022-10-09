@@ -1,0 +1,130 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu-conversor {
+    background-color: rgb(61, 1, 53);
+    color: white;
+}
+
+#menu-conversor a {
+    color: white;
+}
+
+.bg-conversor {
+    background-image: url(../img/dragon-scales\ \(2\).svg);
+}
+
+.conversor-container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start;
+    min-height: 70vh;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+.flex-item-convesor {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-item-convesor h1 {
+    justify-content: center;
+}
+
+.flex-item-convesor span {
+    position: relative;
+    top: 10px;
+}
+
+.base {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.convert-base input {
+    width: 300px;
+}
+
+.button button {
+    position: relative;
+    top: 20px;
+    left: 45px;
+    color: white;
+    background-color: #DD00FF;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.imagem-empresario {
+    position: absolute;
+    top: 220px;
+    left: 700px;
+}
+
+.saco-dinheiro {
+    position: absolute;
+    top: 350px;
+    left: 1050px;
+}
+.resultado-USD {
+    position: relative;
+    top:50px;
+    right: 160px;
+}
+.resultado-EUR {
+    position: relative;
+    top:50px;
+    right: 160px;
+}
+.p-usd{
+    position: relative;
+    left: 150px;
+    font-family: 'Open Sans', sans-serif;
+}
+.p-eur{
+    position: relative;
+    left: 150px;  
+    font-family: 'Open Sans', sans-serif;      
+}
+.EUA-flag{
+    position: relative;
+    top: 102px;
+    left: 318px;
+}
+.UK-flag{
+    position: relative;
+    top: 150px;
+    left: 362px;
+}
+
+#valor-US{
+position: relative;
+bottom: 80px;
+left: 30px;
+}
+
+#valor-EU{
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+}
