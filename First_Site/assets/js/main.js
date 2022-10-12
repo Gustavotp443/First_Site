@@ -18,7 +18,12 @@ form.addEventListener("submit", function (e) {
         setResultado("Altura inválida", false);
         return;
     }
-    const imc = (peso / altura ** 2).toFixed(2);
+    const imc = (peso / (altura / 100) ** 2).toFixed(2);
+
+    if (imc >= 100) {
+        alert("Verifique se a altura foi digitada em centimetros")
+    }
+
     const msg = `Seu imc é de ${imc}(${getNivel(imc)})`;
     setResultado(msg, true);
 });
